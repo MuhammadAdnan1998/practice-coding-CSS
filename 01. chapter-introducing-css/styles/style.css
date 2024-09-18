@@ -2,3 +2,33 @@ h2{
     color: brown;
     background-color: aqua;
 }
+
+/* CSS selectors */
+/* universal selector */
+*{
+    color: aqua;
+    background-color: rgb(46, 11, 78);
+    font-weight: bold;
+}
+
+/* type selector */
+h3{
+    color: aqua;
+    background-color: rgb(46, 11, 78);
+    font-weight: bold;
+}
+p{
+    color: chocolate;
+}
+h2,li{
+    color: rgb(46, 4, 31);
+    background-color: rgb(201, 238, 122);
+}
+
+/* class selector */
+.heading{
+    color: violet;
+}
+#CSS_firstChapter{
+    color: yellow;
+}
