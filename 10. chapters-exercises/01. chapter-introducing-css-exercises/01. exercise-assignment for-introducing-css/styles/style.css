@@ -1,9 +1,9 @@
+/* CSS selectors */
 h2 {
     color: brown;
     background-color: aqua;
 }
 
-/* CSS selectors */
 /* universal selector */
 * {
     color: aqua;
@@ -22,17 +22,12 @@ p {
     color: chocolate;
 }
 
-h2,
-li {
-    color: rgb(46, 4, 31);
-    background-color: rgb(201, 238, 122);
-}
-
 /* class selector */
 .heading {
     color: violet;
 }
 
+/* id selector */
 #CSS_firstChapter {
     color: yellow;
 }
@@ -87,16 +82,5 @@ h1 {
 }
 
 .main {
-    color: aqua;
-}
-
-.main {
-    color: aqua !important;
-}
-
-.main {
     color: rebeccapurple !important;
 }
-
-/* -- ------------------------------ */
-/* Inheritance */
